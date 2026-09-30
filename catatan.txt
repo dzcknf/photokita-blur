@@ -19,3 +19,4 @@ Kontrol:
 Requirement:
     pip install opencv-python mediapipe
 """
+sjdhjs
