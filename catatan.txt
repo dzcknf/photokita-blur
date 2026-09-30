@@ -1,0 +1,21 @@
+untuk memulai ketik :
+deactivate
+conda activate bluregesture
+
+"""
+Foto Kita Blur - Camera Gesture Blur + Freeze (Pastel Kawaii Style)
+=====================================================================
+Buka kamera dengan tampilan pastel kawaii (gradient lembut, rounded
+corner, badge lucu), deteksi gesture ✌️ (peace sign / dua jari).
+Saat gesture terdeteksi: frame di-blur lalu DIBEKUKAN (freeze) -
+seperti efek "jepret foto". Begitu tangan ✌️ tidak terdeteksi lagi,
+kamera otomatis kembali live (normal).
+
+Kontrol:
+- Tunjukkan gesture ✌️ (peace sign) ke kamera -> blur + freeze
+- Lepas gesture (tangan tidak ✌️ lagi) -> kamera lanjut live lagi
+- Tekan 'q' untuk keluar
+
+Requirement:
+    pip install opencv-python mediapipe
+"""
